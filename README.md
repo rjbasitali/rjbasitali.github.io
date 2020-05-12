@@ -2,5 +2,5 @@
 
 ### Summary
 
-My resume of CV I made using plain HTML5 & CSS.
+My resume I made using plain HTML5 & CSS.
 
