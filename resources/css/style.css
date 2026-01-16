@@ -64,8 +64,8 @@ h2 {
     font-weight: 700;
     text-transform: uppercase;
     color: #42a8c0;
-    display: inline-block;
     margin-left: 5px;
+    margin-bottom: 0;
 }
 
 .personal-header p {
@@ -77,6 +77,10 @@ h2 {
 
 .main-heading {
     margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 /* .main-heading p {
@@ -88,15 +92,13 @@ h2 {
 } */
 
 .main-heading ion-icon {
-    display: inline-block;
     background-color: #42a8c0;
     border: 2px solid #42a8c0;
     border-radius: 50%;
     color: white;
     padding: 2px;
     font-size: 80%;
-    line-height: 120%;
-    vertical-align: middle;
+    flex-shrink: 0;
 }
 
 .main-desc {
