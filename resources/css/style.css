@@ -195,7 +195,7 @@ h3 {
 
 .exp-items {
     margin: 10px 30px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .exp-items li {
@@ -207,6 +207,32 @@ h3 {
     text-decoration: none;
     color: #555;
     margin-top: 5px;
+}
+
+.tech-tags {
+    margin: 10px 30px;
+    margin-bottom: 40px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tech-tags li {
+    font-size: 65%;
+    margin-top: 0;
+    display: inline-block;
+    background-color: #f0f0f0;
+    color: #555;
+    padding: 5px 12px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+}
+
+.tech-tags li a {
+    text-decoration: none;
+    color: #555;
+    margin-top: 0;
 }
 
 .exp-projects {
